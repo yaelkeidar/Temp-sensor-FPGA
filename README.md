@@ -24,6 +24,7 @@ sw2 - if the temp is under 10C, the buzzer starts working and the blue led start
 
 * The system also works when both sw1 and sw2 are on.
 
+
 sw3- The user can determine the hot temperature threshold by using the keypad.
   After determining the new hot temperature threshold, if the measured temperature is over from that temperature, the buzzer starts working and the red led starts flashing.
 
