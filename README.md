@@ -18,7 +18,8 @@ Software-
 2. Arduino
    
 The project-
-Tthere are 3 cups-
+
+There are 3 cups-
 
 1. Hot water
 
