@@ -10,13 +10,23 @@ Tools-
 6. Keypad
 7. wires
 8. Breadboard
+9. 3 cups
 
 Software-
 1. Vivado- VHDL
 2. Arduino
    
 The project-
-   While measuring the temp, the FPGA basys3 displays the temp.
+Tthere are 3 cups-
+
+1. Hot water
+
+2. room temperature water
+
+3. ice
+
+   
+   While measuring the temperature of the water in a cup, the FPGA basys3 displays the temperature.
 
 sw1 - if the temp is over 50C, the buzzer starts working and the red led starts flashing.
 
@@ -32,4 +42,4 @@ sw4- The user can determine the cold temperature threshold by using the keypad.
   After determining the new cold temperature threshold, if the measured temperature is under from that temperature, the buzzer starts working and the blue led starts flashing.
  
 * The system also works when both sw3 and sw4 are on.
-![system2](https://github.com/yaelkeidar/Temp-sensor-FPGA/assets/154610976/64d51aa1-5271-4731-9cb2-5713f8568c85)
+![system2](https://github.com/yaelkeidar/Temp-sensor-FPGA/assets/154610976/3cc4338d-852f-42ce-ad0f-4aca118c1afa)
