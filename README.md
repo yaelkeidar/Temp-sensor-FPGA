@@ -1,6 +1,7 @@
 # Temperature-sensor-FPGA
 The project involves the temperature sensor DS18B20 and FPGA BASYS3.
 The temp sensor measures temperatures from -55C to 125C.
+
 Tools-
 1. Basys3
 2. Arduino uno
