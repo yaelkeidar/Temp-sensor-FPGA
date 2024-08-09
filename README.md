@@ -45,7 +45,7 @@ sw4- The user can determine the cold temperature threshold by using the keypad.
  
 * The system also works when both sw3 and sw4 are on.
 
-  Links to Youtube-
+Link to the videos in Youtube-
   https://www.youtube.com/watch?v=Jwe6oWMPyZE&list=PLejz4G5i2PCac-pyeZiZoc6fPHPi7-JGv&index=2
   https://www.youtube.com/watch?v=TRDaP4a6h9g&list=PLejz4G5i2PCac-pyeZiZoc6fPHPi7-JGv&index=1
   
