@@ -19,31 +19,18 @@ Software-
    
 The project-
 
-There are 3 cups-
+In this project, three cups are used, each containing:
+1.	Hot water
+2.	Room temperature water
+3.	Ice
+As we measured the temperature of the water in each cup, the FPGA board displayed the corresponding temperature. The different modes are utilized of the system to test the sensor in each cup, allowing us to observe all the functionalities.
+•	Mode 1 (Checking if the temperature is over 50°C): When in this mode, the buzzer and the red LED successfully activate when the temperature exceeds 50°C.
+•	Mode 2 (Checking if the temperature is under 10°C): In this mode, the buzzer and the blue LED turn on when the temperature falls below 10°C.
+•	Mode 3 (Checking if the temperature is over the user-defined threshold): The buzzer and the red LED are triggered when the temperature exceeds the threshold set by the user via the keypad.
+•	Mode 4 (Checking if the temperature is under the user-defined threshold): The buzzer and the blue LED activate when the temperature is below the user-defined threshold.
+Throughout all modes, the temperature is continuously displayed on the FPGA board.
+This testing process effectively demonstrates the system's ability to handle varying temperature conditions and accurately display the temperature while engaging the appropriate alerts based on user-defined thresholds.
 
-1. Hot water
-
-2. room temperature water
-
-3. ice
-
-   
-   While measuring the temperature of the water in a cup, the FPGA basys3 displays the temperature.
-
-sw1 - if the temp is over 50C, the buzzer starts working and the red led starts flashing.
-
-sw2 - if the temp is under 10C, the buzzer starts working and the blue led starts flashing.
-
-* The system also works when both sw1 and sw2 are on.
-
-
-sw3- The user can determine the hot temperature threshold by using the keypad.
-  After determining the new hot temperature threshold, if the measured temperature is over from that temperature, the buzzer starts working and the red led starts flashing.
-
-sw4- The user can determine the cold temperature threshold by using the keypad.
-  After determining the new cold temperature threshold, if the measured temperature is under from that temperature, the buzzer starts working and the blue led starts flashing.
- 
-* The system also works when both sw3 and sw4 are on.
 
 Links to the videos in Youtube-
 
