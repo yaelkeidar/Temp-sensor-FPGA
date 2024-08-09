@@ -44,4 +44,9 @@ sw4- The user can determine the cold temperature threshold by using the keypad.
   After determining the new cold temperature threshold, if the measured temperature is under from that temperature, the buzzer starts working and the blue led starts flashing.
  
 * The system also works when both sw3 and sw4 are on.
+
+  Links to Youtube-
+  https://www.youtube.com/watch?v=Jwe6oWMPyZE&list=PLejz4G5i2PCac-pyeZiZoc6fPHPi7-JGv&index=2
+  https://www.youtube.com/watch?v=TRDaP4a6h9g&list=PLejz4G5i2PCac-pyeZiZoc6fPHPi7-JGv&index=1
+  
 ![system2](https://github.com/yaelkeidar/Temp-sensor-FPGA/assets/154610976/3cc4338d-852f-42ce-ad0f-4aca118c1afa)
