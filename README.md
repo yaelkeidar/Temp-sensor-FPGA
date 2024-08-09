@@ -26,11 +26,17 @@ In this project, three cups are used, each containing:
 
    
 As we measured the temperature of the water in each cup, the FPGA board displayed the corresponding temperature. The different modes are utilized of the system to test the sensor in each cup, allowing us to observe all the functionalities.
+
 •	Mode 1 (Checking if the temperature is over 50°C): When in this mode, the buzzer and the red LED successfully activate when the temperature exceeds 50°C.
+
 •	Mode 2 (Checking if the temperature is under 10°C): In this mode, the buzzer and the blue LED turn on when the temperature falls below 10°C.
+
 •	Mode 3 (Checking if the temperature is over the user-defined threshold): The buzzer and the red LED are triggered when the temperature exceeds the threshold set by the user via the keypad.
+
 •	Mode 4 (Checking if the temperature is under the user-defined threshold): The buzzer and the blue LED activate when the temperature is below the user-defined threshold.
+
 Throughout all modes, the temperature is continuously displayed on the FPGA board.
+
 This testing process effectively demonstrates the system's ability to handle varying temperature conditions and accurately display the temperature while engaging the appropriate alerts based on user-defined thresholds.
 
 
