@@ -23,6 +23,8 @@ In this project, three cups are used, each containing:
 1.	Hot water
 2.	Room temperature water
 3.	Ice
+
+   
 As we measured the temperature of the water in each cup, the FPGA board displayed the corresponding temperature. The different modes are utilized of the system to test the sensor in each cup, allowing us to observe all the functionalities.
 •	Mode 1 (Checking if the temperature is over 50°C): When in this mode, the buzzer and the red LED successfully activate when the temperature exceeds 50°C.
 •	Mode 2 (Checking if the temperature is under 10°C): In this mode, the buzzer and the blue LED turn on when the temperature falls below 10°C.
